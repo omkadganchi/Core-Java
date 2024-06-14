@@ -1,0 +1,15 @@
+package com.april4;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String s = "Instagram";
+		
+		System.out.println(s.charAt(6));
+		System.out.println(s.substring(2));
+		System.out.println(s.subSequence(1, 5));
+	}
+
+}

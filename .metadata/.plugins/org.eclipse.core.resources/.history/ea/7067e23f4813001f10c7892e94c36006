@@ -1,0 +1,6 @@
+package aaaa;
+
+public class B {
+ 
+	C cc = new C();
+}

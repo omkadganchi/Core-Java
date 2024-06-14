@@ -1,0 +1,22 @@
+
+public class Swapping {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a = 10;
+		int b = 5;
+		int temp;
+		
+		System.out.println("Before Swapping A: "+a);
+		System.out.println("Before Swapping B: "+b);
+		
+		temp = a;
+		a = b;
+		b = temp;
+		
+		System.out.println("\nAfter Swapping A: "+a);
+		System.out.println("After Swapping B: "+b);
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.shop;
+
+public class Shop_Details {
+	void ShopName() {
+		System.out.println("Shree Ganesh Traders");
+		System.out.println("3704, Mallappa Dhanshetty Road, Barshi");
+		Shop_Details sd1 = new Shop_Details();
+		sd1.Distributors();
+	}
+
+	void Distributors() {
+		System.out.println("Authorised Dealer: Agarbatti, Dhoop, Dt.Soaps");
+		System.out.println();
+		Shop_Details sd1 = new Shop_Details();
+		sd1.ShopName();
+	}
+}

@@ -1,0 +1,12 @@
+package aaaa;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		A aa = new A();
+		System.out.println(aa.m1().m2().m4());
+	}
+
+}

@@ -1,0 +1,15 @@
+package aaaa;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		A aa = new A();
+		B bb = aa.bb;
+		C cc = bb.cc;
+		D dd = cc.dd;
+		cc.m1();
+	}
+
+}

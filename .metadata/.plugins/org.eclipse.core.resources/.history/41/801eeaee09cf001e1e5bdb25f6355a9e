@@ -1,0 +1,23 @@
+public class Calculator {
+
+	double addition(double n1, double n2) {
+		double sum = n1 + n2;
+		return sum;
+	}
+
+	double average(double n1, double n2) {
+		Calculator C1 = new Calculator();
+		double result = C1.addition(n1, n2);
+		double avg = result / 2.00;
+		System.out.println("The Avg val is: " + avg);
+		return avg;
+	}
+
+	void discount(double n1, double n2) {
+		Calculator C1 = new Calculator();
+		double avg = C1.average(n1, n2);
+		double disc = avg * 20.00 / 100.00;
+		System.out.println("Total disc is: " + disc);
+	}
+
+}

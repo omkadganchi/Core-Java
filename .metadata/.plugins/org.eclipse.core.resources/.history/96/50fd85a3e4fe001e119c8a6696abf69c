@@ -1,0 +1,63 @@
+package com.april19;
+
+public class Player {
+	private String name;
+	private int runs;
+	private int wickets;
+	private float average;
+	private String hs;
+	private String bf;
+	
+	public Player(String name, int runs, int wickets, float average, String hs, String bbf) {
+		super();
+		this.name = name;
+		this.runs = runs;
+		this.wickets = wickets;
+		this.average = average;
+		this.hs = hs;
+		this.bf = bf;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getRuns() {
+		return runs;
+	}
+	public void setRuns(int runs) {
+		this.runs = runs;
+	}
+	public int getWickets() {
+		return wickets;
+	}
+	public void setWickets(int wickets) {
+		this.wickets = wickets;
+	}
+	public float getAverage() {
+		return average;
+	}
+	public void setAverage(float average) {
+		this.average = average;
+	}
+	public String getHs() {
+		return hs;
+	}
+	public void setHs(String hs) {
+		this.hs = hs;
+	}
+	public String getBf() {
+		return bf;
+	}
+	public void setBf(String bf) {
+		this.bf = bf;
+	}
+	@Override
+	public String toString() {
+		return name;
+	}
+	
+	
+	
+}

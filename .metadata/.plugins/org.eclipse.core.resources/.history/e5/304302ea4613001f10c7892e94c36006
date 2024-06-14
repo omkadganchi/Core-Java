@@ -1,0 +1,12 @@
+package aaaa;
+
+public class B {
+	C m2() {
+		m3();
+		return new C();
+	}
+	
+	void m3() {
+		System.out.println("Hello");
+	}
+}

@@ -1,0 +1,30 @@
+package com.april19;
+
+import java.util.ArrayList;
+
+public class PlayersStats {
+	
+	
+	
+		public static ArrayList m1() {
+		
+		ArrayList<Player>MI = new ArrayList();
+		
+		MI.add(new Player("Rohit Sharma",6529,15,30.08f,"109","4/6"));
+		MI.add(new Player("Lendl Simmons",1049,1,39.96f,"100","1/34"));
+		MI.add(new Player("Surya Kumar Yadav",3379,0,31.88f,"103","0/8"));
+		MI.add(new Player("Ambati Rayudu",3916,0,28.2f,"100*","-"));
+		MI.add(new Player("Tilak Verma",948,0,39.5f,"84","0/6"));
+		MI.add(new Player("Kieron Pollard",3412,69,28.67f,"87","4/44"));
+		MI.add(new Player("Harbhajan Singh",833,150,15.15f,"64","5/18"));
+		MI.add(new Player("Mitchell McClenaghan",85,71,6.54f,"20","4/21"));
+		MI.add(new Player("Lasith Malinga",88,170,5.5f,"17","5/13"));
+		MI.add(new Player("Jasprit Bumrah",66,155,9.29f,"16","5/10"));
+		MI.add(new Player("Zaheer Khan",117,102,8.36f,"23","4/19"));
+		
+		return MI;
+		
+		}
+		
+	}
+

@@ -1,0 +1,28 @@
+package operators;
+
+public class nestedif1 {
+
+	public static void main(String[] args) {
+
+		int grades = 45;
+
+		if (grades >= 25)
+			System.out.print("PASS: ");
+		if (grades > 80) {
+			System.out.println("A grade");
+		} else if (grades > 60 && grades <= 80) {
+			System.out.println("B grade");
+		} else if (grades > 50 && grades <= 60) {
+			System.out.println("C grade");
+		} else if (grades > 45 && grades <= 50) {
+			System.out.println("D grade");
+		} else if (grades >= 25 && grades <= 45) {
+			System.out.println("E grade");
+		}
+
+		else {
+			System.out.println("FAIL");
+		}
+	}
+
+}

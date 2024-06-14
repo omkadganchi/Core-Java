@@ -1,0 +1,21 @@
+//If a number is even, we also need to check whether the number is divisible by 6. otherwise number is odd 
+
+package operators;
+
+public class nestedif {
+	public static void main(String[] args) {
+
+		int num = 8;
+
+		if (num % 2 == 0) {
+			System.out.print("is EVEN number ");
+			if (num % 6 == 0) {
+				System.out.print("& divisible by 6 ");
+			} else if (num % 6 != 0) {
+				System.out.print("& not divisible by 6");
+			} else {
+				System.out.println("is ODD number");
+			}
+		}
+	}
+}

@@ -1,0 +1,8 @@
+package com.march14;
+
+public class Demo {
+	
+	//making var static
+static int a = 10;
+
+}

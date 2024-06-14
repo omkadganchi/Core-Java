@@ -1,0 +1,12 @@
+package aaaa;
+
+public class A {
+
+	B m1() {
+		mx();
+		return new B();
+	}
+	void mx() {
+		System.out.println("Hi");
+	}
+}

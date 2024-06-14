@@ -1,0 +1,10 @@
+package com.shop;
+
+public class Test_Shop_Details {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.march21;
+
+public class TajHotels {
+
+	void welcomeGuests() {
+		System.out.println("Welcome to Taj Hotels!");
+	}
+
+	void policies() {
+		System.out.println("Check-in time: 14:00 hrs\n" 
+	                     + "Check-out time: 12:00 hrs\n"
+				         + "Early check-in and late check-out on request");
+	}
+
+	void brands() {
+		System.out.println("Brands: \r\n" +"Taj\r\n" + "SeleQtions\n" 
+	                     + "Vivanta\r\n" + "Ginger\n" + "Qmin\n");
+	}
+}

@@ -1,0 +1,27 @@
+//If a number is even, we also need to check whether the number is divisible by 6. And if the number is odd, 
+//we need to check whether the number is divisible by 3.
+
+package operators;
+
+public class nestedif {
+	public static void main(String[] args) {
+		
+int num =24;
+
+if(num%2 == 0) {
+	System.out.print("is EVEN number ");
+	if(num % 6 == 0) {
+		System.out.print("& divisible by 6 ");
+	} else {
+		System.out.print("& not divisible by 6");
+	}
+}
+	else {
+		System.out.print("is ODD number");
+	} if ((num%2 != 0) && num % 3 == 0) {
+		System.out.print("& divisible by 3 ");
+	} else {
+		System.out.println("& not divisible by 3");
+	}
+}
+}

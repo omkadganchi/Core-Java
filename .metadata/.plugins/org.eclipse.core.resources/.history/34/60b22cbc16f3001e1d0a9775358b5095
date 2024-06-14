@@ -1,0 +1,39 @@
+package com.april4;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String s = "Instagram";
+		String s1 =" ";
+		String s2 =" By Meta";
+		
+		System.out.println(s.charAt(6));
+		System.out.println(s.substring(2));
+		System.out.println(s.subSequence(1, 5));
+		System.out.println(s.substring(1, 5));
+		System.out.println(s.length());
+		System.out.println(s.contains("ram"));
+		System.out.println();
+		
+		byte[] data = s.getBytes();
+		System.out.println(data);
+		
+		System.out.println(s.concat(s2));
+		System.out.println(s.toLowerCase());
+		System.out.println(s.toUpperCase());
+		System.out.println(s1.isBlank());
+		System.out.println(s1.isEmpty());
+		System.out.println();
+		
+		
+		String s3 = new String("Java by kiran");
+		String[] data1 = s3.split(" ");
+		
+		
+		
+		StringBuffer s4 = new StringBuffer("JAVA");
+	}
+
+}

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;JBK Hackathon Questions&apos;" deleteContents="true" description="Delete resource &apos;JBK Hackathon Questions&apos;" element1="/JBK Hackathon Questions" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1710660778626"/>&#x0A;<refactoring comment="Delete resource &apos;Polymorphism(overriding)&apos;" deleteContents="true" description="Delete resource &apos;Polymorphism(overriding)&apos;" element1="/Polymorphism(overriding)" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1711086732724"/>
+</session>

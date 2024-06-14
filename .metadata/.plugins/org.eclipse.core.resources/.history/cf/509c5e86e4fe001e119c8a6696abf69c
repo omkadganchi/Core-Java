@@ -1,0 +1,17 @@
+package com.april19;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class IPLTeams {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		HashMap<String,ArrayList>hm = new HashMap();
+		
+		hm.put("MI",PlayersStats.m1() );
+	
+	}
+
+}
