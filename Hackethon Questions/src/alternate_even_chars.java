@@ -5,8 +5,8 @@ public class alternate_even_chars {
 	public static void main(String[] args) {
 
 		List<String> al = new ArrayList<String>();
-		al.add("MANCHESTER");
-		al.add("UNITED");
+		al.add("akanksha");
+		al.add("KHEDKAR");
 
 		char[] ch1 = al.get(0).toCharArray();
 		char[] ch2 = al.get(1).toCharArray();
