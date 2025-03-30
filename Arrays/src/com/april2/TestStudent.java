@@ -17,12 +17,12 @@ public class TestStudent {
 		db[2] = s3;
 		db[3] = s4;
 		
-		
 		for(student s:db) {
 			System.out.println("Name: "+s.getName());
 			System.out.println("Roll: "+s.getRollNo());
 			System.out.println("Marks: "+s.getMarks());
 			System.out.println("Degree: "+s.getDegree());
+			student.setDegree("B.E");
 			System.out.println();
 		}
 	}

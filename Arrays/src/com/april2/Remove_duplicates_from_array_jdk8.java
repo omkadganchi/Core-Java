@@ -13,7 +13,7 @@ public class Remove_duplicates_from_array_jdk8 {
 		
 		List<Integer> uniqueNum = numbers.stream().distinct().collect(Collectors.toList());
 		
-		//stream() - convert list to stram
+		//stream() - convert list to stream
 		//distinct() - only unique elements can retained
 		//collect(Collectors.toList()) - collects the result back in the list 
 		
